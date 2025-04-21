@@ -1,18 +1,12 @@
 import type { UserThemeConfig } from 'valaxy-theme-yun'
 import { defineValaxyConfig } from 'valaxy'
-// import { addonTwikoo } from 'valaxy-addon-twikoo'  //接入Twikoo评论系统
-
+import { addonTwikoo } from 'valaxy-addon-twikoo'  //接入Twikoo评论系统
 // import { addonMeting } from 'valaxy-addon-meting' //添加Meting音乐播放器
 
 // add icons what you will need
 const safelist = [
   'i-ri-home-line',
 ]
-
-
-
-
-
 /**
  * User Config
  */
@@ -41,7 +35,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       //   color: 'hotpink',
       // },
     ],
-//页脚
+    //页脚
     footer: {
       since: 2025,
       powered: false,
@@ -59,22 +53,22 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
     // 设置 valaxy-addon-twikoo 配置项
     // 设置 valaxy-addon-twikoo 配置项
-  // addons: [
-  //   addonTwikoo({
-  //     envId: '', // 自建服务地址
-  //   }),
-  //   //音乐播放器，如需要配置，请查看https://github.com/metowolf/MetingJS
-  //   addonMeting({
-  //     global: true,
-  //     /** @see https://github.com/metowolf/MetingJS */
-  //     props: {
-  //       id: '',
-  //       server: '',
-  //       type: '',
-  //       mode: '',
-  //     },
-  //   })
-  // ],
+  addons: [
+    addonTwikoo({ // ri2AhuJutG4sdNwJ
+      envId: 'https://twikoo-api-git-main-lis-projects-36388afa.vercel.app', // 自建服务地址
+    }),
+    //音乐播放器，如需要配置，请查看https://github.com/metowolf/MetingJS
+    // addonMeting({
+    //   global: true,
+    //   /** @see https://github.com/metowolf/MetingJS */
+    //   props: {
+    //     id: '',
+    //     server: '',
+    //     type: '',
+    //     mode: '',
+    //   },
+    // })
+  ],
 
   //鼠标点击烟花特效
   // fireworks: {
@@ -82,5 +76,5 @@ export default defineValaxyConfig<UserThemeConfig>({
   //   colors: ['#FFE57D', '#FFCD88', '#E6F4AD']
   // },
 
-  unocss: { safelist },
+  unocss: { safelist }, // add icons to safelist
 })

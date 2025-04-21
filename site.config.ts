@@ -97,9 +97,6 @@ export default defineSiteConfig({
   search: { // 搜索功能
     enable: false,
   },
-  comment: { // 评论功能
-    enable: true,
-  },
 
   // sponsor: {
   //   enable: true,
