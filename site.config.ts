@@ -4,6 +4,8 @@ export default defineSiteConfig({
   url: 'https://e69doe.github.io/', // 网站的url
   lang: 'zh-CN', // 语言
   title: '首页', // 网站的标题
+  subtitle: 'hello',//网站副标题
+  favicon: 'https://s21.ax1x.com/2025/04/21/pE5NDEt.jpg', // 网站的favicon
   author: {
     name: 'Li', // 作者的名字
     avatar: 'https://s21.ax1x.com/2025/04/21/pE5NDEt.jpg', // 作者的头像
@@ -14,12 +16,12 @@ export default defineSiteConfig({
   },
   description: 'e69d8e的博客', // 网站的描述
   social: [
-    // {
-    //   name: 'RSS',
-    //   link: '/atom.xml',
-    //   icon: 'i-ri-rss-line',
-    //   color: 'orange',
-    // },
+    {
+      name: 'RSS',
+      link: '/links',
+      icon: 'i-ri-rss-line',
+      color: 'orange',
+    },
     // {
     //   name: 'QQ 群 1050458482',
     //   link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
