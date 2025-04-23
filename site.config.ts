@@ -1,7 +1,7 @@
 import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
-  url: 'https://e69doe.github.io/', // 网站的url
+  url: 'https://coee1026.github.io/', // 网站的url
   lang: 'zh-CN', // 语言
   title: '首页', // 网站的标题
   subtitle: 'hello',//网站副标题
@@ -18,7 +18,7 @@ export default defineSiteConfig({
   social: [
     {
       name: 'RSS',
-      link: '/links',
+      link: '/test',
       icon: 'i-ri-rss-line',
       color: 'orange',
     },
