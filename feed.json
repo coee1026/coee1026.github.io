@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "首页",
+    "home_page_url": "https://coee1026.github.io/",
+    "feed_url": "https://coee1026.github.io/feed.json",
+    "description": "e69d8e的博客",
+    "icon": "https://s21.ax1x.com/2025/04/21/pE5NDEt.jpg",
+    "author": {
+        "name": "Li",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h2>test1</h2>\n<p>hello</p>\n<h2>test2</h2>\n<p>hahaha</p>\n<br/><p>访问 <a href=\"https://coee1026.github.io/posts/test\" target=\"_blank\">https://coee1026.github.io/posts/test</a> 阅读全文。</p>",
+            "url": "https://coee1026.github.io/posts/test",
+            "title": "这是一篇测试文章",
+            "date_modified": "2025-04-21T00:00:00.000Z",
+            "date_published": "2025-04-21T00:00:00.000Z",
+            "author": {
+                "name": "Li",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<br/><p>访问 <a href=\"https://coee1026.github.io/posts/hello-valaxy\" target=\"_blank\">https://coee1026.github.io/posts/hello-valaxy</a> 阅读全文。</p>",
+            "url": "https://coee1026.github.io/posts/hello-valaxy",
+            "title": "我的文章",
+            "date_modified": "2025-04-19T00:00:00.000Z",
+            "date_published": "2025-04-19T00:00:00.000Z",
+            "author": {
+                "name": "Li",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://coee1026.github.io/sitemap.xml
